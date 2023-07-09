@@ -1,0 +1,94 @@
+#bg{
+    background-image: url("back.jpg");
+    height:320vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cormorant Garamond', serif;
+} 
+#page{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solod black;
+    background-color: black;
+    color:white;
+}
+#div01{
+    display: flex;
+    margin-left: 10px;
+}
+#div02{
+padding: 25px;
+}
+#div03{
+    margin-top: 10px;
+    display: flex;
+}
+#div04{
+    margin-top: 10rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 30px;
+}
+a:hover{
+    color:yellow;
+}
+#link{
+    color:black;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px 15px 15px;
+}
+#link:hover{
+    color:blue;
+}
+#heading02{
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    color:black;
+}
+#div05{
+    height: 50vh;
+    padding: 10rem;
+    margin:10px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10rem;
+}
+#div06{
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr;
+    font-size: 2rem;
+}
+#div07{
+    background-color: white;
+    padding: 25px;
+    height: 25vh;
+    margin:10px;
+}
+#div08{
+    display: flex;
+    gap:10px;
+    background-color: white;
+    margin:10px;
+}
+#div09{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    margin:10px;
+    padding:10px;
+}
+#div09 ul{
+    list-style: none;
+    text-align:left;
+}
+#div10{
+    padding: 30px;
+}
